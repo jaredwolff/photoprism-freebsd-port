@@ -1,5 +1,5 @@
 PORTNAME=	photoprism
-DISTVERSION=	g20250321
+DISTVERSION=	g20250426
 CATEGORIES=	www
 
 MAINTAINER=	huoju@devep.net
@@ -31,7 +31,7 @@ USES=		gmake go:1.22,modules python:3.6+,build
 USE_GITHUB=	yes
 GH_ACCOUNT=	photoprism
 GH_PROJECT=	photoprism
-GH_TAGNAME=	250321-57590c48b
+GH_TAGNAME=	250426-27ec7a128
 
 USE_RC_SUBR=	photoprism
 PHOTOPRISM_DATA_DIR=	/var/db/photoprism
